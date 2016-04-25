@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<!--Random Insult Generator-->
+   <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="generateInsult.js"></script>
+    <title>Random Insult Generator</title>
+   <style>
+body{ 
+background-color: #587484;
+}
+#headerBox{ 
+background-color: #8C2F2A;
+}
+
+#headerBox h1, p{
+  color: #eeeeee;
+  max-height: 200px;
+}
+h2{
+  color: #eeeeee;
+  font-size: 4vh;
+}
+#insultSpace h1{
+font-size: 6.5vh;
+  color: #eeeeee;
+}
+#footerspace{
+  background-color: #1d1d1d;
+  padding-top: 10px;
+}
+   </style>
+
+</head>
+<body>
+<div id="wrap">
+<div class="col-xs-12" id="headerBox">
+  <div class="container text-center">
+    <h1>iHateYou</h1>      
+    <p>The World's Most Terrible Insult Generator</p>
+  </div>
+</div>
+<div id="insultHeader" class="text-center col-xs-12">
+
+</div>
+<div id="insultSpace" class="text-center col-xs-12">
+<h2>You got something to say?</h2>
+</div>
+</div>
+  
+
+    <footer class="footer navbar-fixed-bottom text-center" id="footerspace">
+      <div class="container">
+        <p class="text-muted"><button type="button" class="btn btn-danger btn-lg" onclick="generateDat()" id="bigButton">Fuck You!</button></p>
+      </div>
+    </footer>
